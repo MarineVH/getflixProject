@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.mov{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.bodyMovie {
+  background: rgb(83,187,144);
+  background: radial-gradient(circle, rgba(83,187,144,0.5) 0%, rgba(0,113,184,0.5) 100%);}
+.g-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 4rem 2rem; 
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    padding: 2rem; 
+  }
+  
+  .card {
+    position: relative;
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    overflow: hidden;
+  }
+  
+  .movie-link {
+    display: block;
+  }
+  
+  .movie-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .rating {
+    position: absolute;
+    bottom: 10px; /* Ajustez la position verticale selon vos besoins */
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .card:hover .movie-title,
+  .card:hover .rating {
+    opacity: 1;
+  }
+  
+  .img {
+    width: 100%;
+    transition: transform .1s;
+  }
+  
+  .card:hover .img {
+    transform: scale(1.1);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+  }
+  
+  .gold-star {
+    color: gold;
+  }
+
+  .titreMovies {
+    color: #0071b8;
+  }

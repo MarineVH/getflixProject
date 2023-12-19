@@ -1,0 +1,49 @@
+.movie-details {
+    text-align: center;
+    padding: 0rem;
+}
+
+.container2 {
+    background: rgb(83,187,144);
+    background: radial-gradient(circle, rgba(83,187,144,0.5) 0%, rgba(0,113,184,0.5) 100%);
+    color: #0071b8;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 2rem; /* Ajoutez le margin selon vos besoins */
+    padding: 2rem; 
+}
+
+
+.gold-star {
+    color: gold;
+  }
+
+h2{
+    color: #53bb90;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+p{
+    color:#0071b8;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.date {
+    color: #53bb90;
+}
+
+.star {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.star:hover, .star.selected {
+    color: #ffcc00;
+}

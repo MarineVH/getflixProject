@@ -1,0 +1,7 @@
+{
+    "require": {
+        "tuupola/cors-middleware": "^1.4",
+        "phpmailer/phpmailer": "^6.9",
+        "firebase/php-jwt": "^6.10"
+    }
+}

@@ -1,0 +1,139 @@
+.container-with-background {
+    background: rgb(83, 187, 144);
+    background: radial-gradient(circle, rgba(83, 187, 144, 0.5) 0%, rgba(0, 113, 184, 0.5) 100%);
+    min-height: 100vh;
+  }
+
+.button-container {
+    display: flex;
+    background-color: gray;
+    border-radius: 28px;
+}
+  
+.transi {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s, border-radius 0.3s; 
+}
+  
+.active {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    background-color: #53bb90; 
+    color: #fff;
+}
+  
+.inactive {
+    background-color: gray; 
+    color: #000;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #fff;
+
+}
+
+/* .sub-option {
+    background-color: white; 
+    color: #000;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #fff;
+    margin: 10px;
+
+}
+
+.sub-option:hover {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    background-color: #53bb90; 
+    color: #fff;
+} */
+
+.single-price {
+    text-align: center;
+    background: #0071b8;
+    transition: .7s;
+    margin-top: 20px;
+  }
+  .single-price h3 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: -80px;
+    font-family: poppins;
+    color: #fff;
+  }
+  .single-price h4 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .single-price h4 span.sup {
+    vertical-align: text-top;
+    font-size: 25px;
+  }
+  .deal-top {
+    position: relative;
+    background: #53bb90;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 136px 24px 0;
+  }
+  .deal-top::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 0;
+    height: 0;
+  }
+  .deal-bottom {
+    padding: 56px 16px 0;
+  }
+  .deal-bottom ul {
+    margin: 0;
+    padding: 0;
+  }
+  .deal-bottom  ul li {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 16px;
+    border-top: 1px solid #E4E4E4;
+    padding-top: 16px;
+    list-style: none;
+  }
+  .btn-area a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #53bb90;
+    padding: 8px 64px;
+    margin-top: 32px;
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+ 
+  .single-price:hover {
+    background: #53bb90;
+  }
+  .single-price:hover .deal-top {
+    background: #0071b8;
+  }
+  .single-price:hover .deal-top:after {
+    border-top: 50px solid #0071b8;
+  }
+  .single-price:hover .btn-area a {
+    background: #0071b8;
+  }

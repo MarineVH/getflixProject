@@ -1,0 +1,46 @@
+.container1 {
+    position: relative;
+  }
+  
+  .img-top {
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    transition: transform 0.5s, filter 0.5s;
+  }
+  
+  .img-top:hover {
+    transform: scale(1.2);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+  }
+  
+  .h-top, .p-top {
+    position: absolute;
+    left: 20px;
+    color: white;
+    margin: 0;
+    padding: 10;
+    opacity: 0;
+    transition: opacity 0.7s;
+    font-size: 15px;
+  }
+  
+  .h-top {
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .p-top {
+    top:0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .container1:hover .h-top,
+  .container1:hover .p-top {
+    opacity: 1;
+  }

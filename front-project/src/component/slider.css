@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.mov{
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  font-weight: 800px;
+}
+
+.fadex {
+  animation:  fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.next, .previous {
+  height: 32px;
+  position: relative;
+}
+
+.next {
+  right: 10%;
+}
+
+.previous {
+  left: 10%;
+}
+
+.slider-container {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+.login-page {
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+.forgot_card {
+    background: rgb(83,187,144);
+    background: radial-gradient(circle, rgba(83,187,144,0.5) 0%, rgba(0,113,184,0.5) 100%);
+    color: #0071b8;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1em;
+    color: #0071b8;
+    background-color: #53bb90;
+    border-radius: 12px;
+    border-color: #0071b8;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+ }
+    
+.btn:hover {
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #0071b8;
+    border: 4px solid #53bb90;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+img {
+    height: auto;
+}
